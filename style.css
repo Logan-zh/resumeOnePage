@@ -59,3 +59,30 @@ a:hover::before{
     height:1rem;
     margin-bottom:2rem;
 }
+.btnzone{
+    width:100px;
+    height:50px;
+    border:1px solid #cacc;
+    border-radius:0 0 0px 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    position: absolute;
+    right:0;
+    top:0;
+    background:#9992;
+    transition:.3s;
+    color:#666;
+}
+.btnzone:hover{
+    background:#368c;
+}
+.loginBox{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.loginBox form{
+    border:1px solid #76c3;
+    padding:50px;
+}

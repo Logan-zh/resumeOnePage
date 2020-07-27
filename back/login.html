@@ -12,19 +12,19 @@
     <title>登入</title>
 </head>
 <body>
-    <div class="container">
-    <div class="row">
+    <div>
         <h3>後臺登入</h3>
-        <a class='ml-auto btn btn-outline-dark' href="../index.html">返回</a>
+        <div class="btnzone" onclick="document.querySelector('.btnzone a').click()">
+            <a id='rebtn' href="../index.html">返回</a>
+        </div>
     </div>
-        <div class="row justify-content-center mt-5">
-            <div class='border shadow p-3 main'>
-                <form action="login.php" method='post'>
-                    <div class="input-control"><label for="acc">帳號：</label><input id='acc' type="text" name='acc'></div>
-                    <div class="input-control"><label for="pas">密碼：</label><input id='pas' type="password" name='pas'></div>
-                    <input class="float-right btn btn-primary" type="button" value="送出">
-                </form>
-            </div>
+        <div class='loginBox'>
+            <form action="login.php" method='post'>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQODvw2tSIvlHwUdRUS7H8hl15GC77vWd3Wce8KiLCiMQ&usqp=CAU&ec=45682160" alt="user">
+                <div class="input-control"><label for="acc">帳號：</label><input id='acc' type="text" name='acc'></div>
+                <div class="input-control"><label for="pas">密碼：</label><input id='pas' type="password" name='pas'></div>
+                <input class="float-right btn btn-primary" type="button" value="送出">
+            </form>
         </div>
     </div>
 </body>
